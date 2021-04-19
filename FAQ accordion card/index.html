@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Faq Accordion card</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="image-box">
+            <div class="box-box">
+                <img src="images/illustration-box-desktop.svg" alt="" class="box-image">
+            </div>
+            <div class="woman-box">
+            <div class="shadow-box">
+                <img src="images/bg-pattern-mobile.svg" alt="" class="woman-shadow">
+            </div></div>
+        </div>
+        <div class="content">
+            <div class="text-box">
+                <div class="title-box">
+                    <h1 class="faq-title">FAQ</h1>
+                </div>
+                <div class="text" >
+                    <div class="question-box">
+                        <button id=button onclick="HideAndShow()">
+                            <div class="bold-question">How many team members can I invite?</div>
+                            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down" id='img1' >
+                        </button>
+                    </div>
+                    <div class="answer-box">
+                        <p class="answer" id=id1> You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <div class="question-box">
+                        <button id=button onclick="HideAndShow2()">
+                            <div class="bold-question">What is the maximum file upload size?</div>
+                            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+                        </button>
+                    </div>
+                    <div class="answer-box">
+                        <p class="answer" id=id2> No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <div class="question-box">
+                        <button id=button onclick="HideAndShow3()">
+                            <div class="bold-question">How do I reset my password?</div>
+                            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+                        </button>
+                    </div>
+                    <div class="answer-box">
+                        <p class="answer" id=id3> Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <div class="question-box">
+                        <button id=button onclick="HideAndShow4()">
+                            <div class="bold-question"> Can I cancel my subscription?</div>
+                            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+                        </button>
+                    </div>
+                    <div class="answer-box">
+                        <p class="answer" id=id4> Yes! Send us a message and we’ll process your request no questions asked. </p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <div class="question-box">
+                        <button id=button onclick="HideAndShow5()">
+                            <div class="bold-question">Do you provide additional support?</div>
+                            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+                        </button>
+                    </div>
+                    <div class="answer-box">
+                        <p class="answer" id=id5>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
